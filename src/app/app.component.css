@@ -18,6 +18,10 @@
     background-repeat: no-repeat;
   }
 
+  .size {
+ font-size: 50px;
+  }
+
   h1,h3 {
 
     position: absolute;
@@ -26,3 +30,52 @@
     font-family: garamound;
 
   }
+
+  body {
+ 
+    font-size: font-size-small;
+    line-height: 1.5;
+    background-color: #fff2e6;
+    }
+    
+    
+    
+    /* LIST */
+    dl {
+    counter-reset: count;
+    padding-left: 4vw; 
+    padding-right: 4vw;
+    margin: 0;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    }
+    
+    
+    
+    dt {
+    color: #521f1f;
+    font-family: base-font-family;
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+    
+    dd {
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    color: #474343;
+    }
+
+    img { 
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+    }
+    
+    button { 
+
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
