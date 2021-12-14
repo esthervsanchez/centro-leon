@@ -79,3 +79,85 @@ display: block;
       margin-right: auto;
       display: block;
     }
+   
+    body {
+      font-family: 'Alegreya Sans', sans-serif;
+  }
+  
+  /* Sticky footer position and size
+  -------------------------------------------------- */
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+  }
+  .footer {
+    position: absolute;
+    margin-bottom: 0%;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    padding-bottom: 0%;
+  }
+  
+  /* Taller footer on small screens */
+  @media (max-width: 567em) {
+      body {
+        margin-bottom: 700px;
+      }
+      .footer {
+        height: 700px;
+      }
+  }
+  
+  /* Sticky footer style and color
+  -------------------------------------------------- */
+  footer {
+    padding-top: 30px;
+    background-color: #441a12;
+    color: #bbb;
+    margin-left: 0%;
+    margin-right: 100%;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+      background-color: #eef2fa;
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+
+  h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+  }
+
+  ul {
+    color: #ffffff;
+  }
+
+  .imagen {
+    float: right;
+    max-width: auto;
+    max-height: auto;
+    margin-right: 15%;
+  
+  }
+
+  
